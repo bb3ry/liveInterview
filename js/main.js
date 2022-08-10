@@ -36,7 +36,7 @@ remoteUsers[user.uid] = user
 await client.subscribe(user, mediaType)
 
 if(mediaType === 'video'){
-    let player = document.getElementById(`user-container-${UID}`)
+    let player = document.getElementById(`user-container-${user.uid}`)
     if (player === null){
         player.remove()
     }
