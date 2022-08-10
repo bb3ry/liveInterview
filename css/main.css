@@ -44,15 +44,7 @@ button {
     font-size: 18px;
     margin: 2px;
     cursor: pointer;
-    box-shadow: 0 9px rgb(43, 76, 92);
-  
-}
-button:hover {background-color: rgb(2, 100, 105)}
-
-button:active {
-  background-color: rgb(2, 100, 105);
-  box-shadow: 0 5px rgb(43, 76, 92);
-  transform: translateY(4px);
+    
 }
 @media screen and (max-width:1400px){
     #video-streams{
